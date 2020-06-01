@@ -2,8 +2,8 @@
   interviewquestions: [
     {
     rank: 3,
-      question: "What is sanjay ?",
-      answer: "BAAP!!!"
+      question: "What is sanjay ",
+      answer: "BAAP"
     }
   ]
 }
