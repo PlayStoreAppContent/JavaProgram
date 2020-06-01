@@ -1,7 +1,7 @@
 {
   interviewquestions: [
     {
-    rank: 1,
+      rank: 1,
       question: "What is sanjay ",
       answer: "BAAP"
     }
