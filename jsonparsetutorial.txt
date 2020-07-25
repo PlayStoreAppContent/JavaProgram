@@ -1,0 +1,54 @@
+{
+   "interviewquestions":[
+      {
+         "rank":1,
+         "question":"1. What is the full form of OOPS ?",
+         "answer":"Object Oriented Programming System."
+      },
+      {
+         "rank":2,
+         "question":"2. What is a class ?",
+         "answer":"Class is a blue print which reflects the entities attributes and actions. Technically defining a class is designing an user defined data type."
+      },
+      {
+         "rank":3,
+         "question":"3. What is an object ?",
+         "answer":"An instance of the class is called as object."
+      },
+      {
+         "rank":4,
+         "question":"4. List the types of inheritance supported in C++ ?",
+         "answer":"Single, Multilevel, Multiple, Hierarchical and Hybrid."
+      },
+      {
+         "rank":5,
+         "question":"5. What is the role of protected access specifier ?",
+         "answer":"If a class member is protected then it is accessible in the inherited class. However, outside the both the private and protected members are not accessible."
+      },
+      {
+         "rank":6,
+         "question":"6. What is encapsulation ?",
+         "answer":"The process of binding the data and the functions acting on the data together in an entity (class) called as encapsulation."
+      },
+      {
+         "rank":7,
+         "question":"7. What is abstraction ?",
+         "answer":"Abstraction refers to hiding the internal implementation and exhibiting only the necessary details."
+      },
+      {
+         "rank":8,
+         "question":"8. What is inheritance ?",
+         "answer":"Inheritance is the process of acquiring the properties of the exiting class into the new class. The existing class is called as base/parent class and the inherited class is called as derived/child class."
+      },
+      {
+         "rank":9,
+         "question":"9. Explain the purpose of the keyword volatile ?",
+         "answer":"Declaring a variable volatile directs the compiler that the variable can be changed externally. Hence avoiding compiler optimization on the variable reference."
+      },
+      {
+         "rank":10,
+         "question":"10. What is an inline function ?",
+         "answer":"A function prefixed with the keyword inline before the function definition is called as inline function. The inline functions are faster in execution when compared to normal functions as the compiler treats inline functions as macros."
+      }
+   ]
+}
