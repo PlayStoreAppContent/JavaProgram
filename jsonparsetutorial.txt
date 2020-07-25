@@ -1,9 +1,504 @@
 {
-  interviewquestions: [
-    {
-      rank: 1,
-      question: "What is sanjay ",
-      answer: "BAAP"
-    }
-  ]
+   "interviewquestions":[
+      {
+         "rank":1,
+         "question":"1. What is the full form of OOPS ?",
+         "answer":"Object Oriented Programming System."
+      },
+      {
+         "rank":2,
+         "question":"2. What is a class ?",
+         "answer":"Class is a blue print which reflects the entities attributes and actions. Technically defining a class is designing an user defined data type."
+      },
+      {
+         "rank":3,
+         "question":"3. What is an object ?",
+         "answer":"An instance of the class is called as object."
+      },
+      {
+         "rank":4,
+         "question":"4. List the types of inheritance supported in C++ ?",
+         "answer":"Single, Multilevel, Multiple, Hierarchical and Hybrid."
+      },
+      {
+         "rank":5,
+         "question":"5. What is the role of protected access specifier ?",
+         "answer":"If a class member is protected then it is accessible in the inherited class. However, outside the both the private and protected members are not accessible."
+      },
+      {
+         "rank":6,
+         "question":"6. What is encapsulation ?",
+         "answer":"The process of binding the data and the functions acting on the data together in an entity (class) called as encapsulation."
+      },
+      {
+         "rank":7,
+         "question":"7. What is abstraction ?",
+         "answer":"Abstraction refers to hiding the internal implementation and exhibiting only the necessary details."
+      },
+      {
+         "rank":8,
+         "question":"8. What is inheritance ?",
+         "answer":"Inheritance is the process of acquiring the properties of the exiting class into the new class. The existing class is called as base/parent class and the inherited class is called as derived/child class."
+      },
+      {
+         "rank":9,
+         "question":"9. Explain the purpose of the keyword volatile ?",
+         "answer":"Declaring a variable volatile directs the compiler that the variable can be changed externally. Hence avoiding compiler optimization on the variable reference."
+      },
+      {
+         "rank":10,
+         "question":"10. What is an inline function ?",
+         "answer":"A function prefixed with the keyword inline before the function definition is called as inline function. The inline functions are faster in execution when compared to normal functions as the compiler treats inline functions as macros."
+      },
+      {
+         "rank":11,
+         "question":"11. What is a storage class ?",
+         "answer":"Storage class specifies the life or scope of symbols such as variable or functions."
+      },
+      {
+         "rank":12,
+         "question":"12. Mention the storage classes names in C++ ?",
+         "answer":"The following are storage classes supported in C++ \n"         "+"         "\n"         "+"         "auto, static, extern, register and mutable\n"
+      },
+      {
+         "rank":13,
+         "question":"13. What is the role of mutable storage class specifier ?",
+         "answer":"A constant class object’s member variable can be altered by declaring it using mutable storage class specifier. Applicable only for non-static and non-constant member variable of the class."
+      },
+      {
+         "rank":14,
+         "question":"14. Distinguish between shallow copy and deep copy ?",
+         "answer":"Shallow copy does memory dumping bit-by-bit from one object to another. Deep copy is copy field by field from object to another. Deep copy is achieved using copy constructor and or overloading assignment operator."
+      },
+      {
+         "rank":15,
+         "question":"15. What is a pure virtual function ?",
+         "answer":"A virtual function with no function body and assigned with a value zero is called as pure virtual function."
+      },
+      {
+         "rank":16,
+         "question":"16. What is an abstract class in C++ ?",
+         "answer":"A class with at least one pure virtual function is called as abstract class. We cannot instantiate an abstract class. "
+      },
+      {
+         "rank":17,
+         "question":"17. What is a reference variable in C++ ?",
+         "answer":"A reference variable is an alias name for the existing variable. Which mean both the variable name and reference variable point to the same memory location. Therefore updation on the original variable can be achieved using reference variable too."
+      },
+      {
+         "rank":18,
+         "question":"18. What is role of static keyword on class member variable ?",
+         "answer":"A static variable does exit though the objects for the respective class are not created. Static member variable share a common memory across all the objects created for the respective class. A static member variable can be referred using the class name itself."
+      },
+      {
+         "rank":19,
+         "question":"19. Explain the static member function ?",
+         "answer":"A static member function can be invoked using the class name as it exits before class objects comes into existence. It can access only static members of the class."
+      },
+      {
+         "rank":20,
+         "question":"20. Name the data type which can be used to store wide characters in C++ ?",
+         "answer":"wchar_t"
+      },
+      {
+         "rank":21,
+         "question":"21. What are/is the operator/operators used to access the class members ?",
+         "answer":"Dot (.) and Arrow ( -> )"
+      },
+      {
+         "rank":22,
+         "question":"22. Can we initialize a class/structure member variable as soon as the same is defined ?",
+         "answer":"No, Defining a class/structure is just a type definition and will not allocated memory for the same."
+      },
+      {
+         "rank":23,
+         "question":"23. What is the data type to store the Boolean value ?",
+         "answer":"bool, is the new primitive data type introduced in C++ language."
+      },
+      {
+         "rank":24,
+         "question":"24. What is function overloading ?",
+         "answer":"Defining several functions with the same name with unique list of parameters is called as function overloading."
+      },
+      {
+         "rank":25,
+         "question":"25. What is operator overloading ?",
+         "answer":"Defining a new job for the existing operator w.r.t the class objects is called as operator overloading."
+      },
+      {
+         "rank":26,
+         "question":"26. Do we have a String primitive data type in C++ ?",
+         "answer":"No, it’s a class from STL (Standard template library)."
+      },
+      {
+         "rank":27,
+         "question":"27. Name the default standard streams in C++ ?",
+         "answer":"cin, cout, cerr and clog."
+      },
+      {
+         "rank":28,
+         "question":"28. Which access specifier/s can help to achive data hiding in C++ ?",
+         "answer":"Private & Protected."
+      },
+      {
+         "rank":29,
+         "question":"29. When a class member is defined outside the class - which operator can be used to associate the function definition to a particular class ?",
+         "answer":"Scope resolution operator (::)"
+      },
+      {
+         "rank":30,
+         "question":"30. What is a destructor ? Can it be overloaded ?",
+         "answer":"A destructor is the member function of the class which is having the same name as the class name and prefixed with tilde (~) symbol. It gets executed automatically w.r.t the object as soon as the object loses its scope. It cannot be overloaded and the only form is without the parameters."
+      },
+      {
+         "rank":31,
+         "question":"31. What is a constructor ?",
+         "answer":"A constructor is the member function of the class which is having the same as the class name and gets executed automatically as soon as the object for the respective class is created."
+      },
+      {
+         "rank":32,
+         "question":"32. What is a default constructor ?   Can we provide one for our class ?",
+         "answer":"Every class does have a constructor provided by the compiler if the programmer doesn’t provides one and known as default constructor. A programmer provided constructor with no parameters is called as default constructor. In such case compiler doesn’t provides the constructor."
+      },
+      {
+         "rank":33,
+         "question":"33. Which operator can be used in C++ to allocate dynamic memory ?",
+         "answer":"‘new’ is the operator can be used for the same."
+      },
+      {
+         "rank":34,
+         "question":"34. What is the purpose of ‘delete’ operator ?",
+         "answer":"‘delete’ operator is used to release the dynamic memory which was created using ‘new’ operator."
+      },
+      {
+         "rank":35,
+         "question":"35. Can I use malloc() function of C language to allocate dynamic memory in C++ ?",
+         "answer":"Yes, as C is the subset of C++, we can all the functions of C in C++ too."
+      },
+      {
+         "rank":36,
+         "question":"36. Can I use ‘delete’ operator to release the memory which was allocated using malloc() function of C language ?",
+         "answer":"No, we need to use free() of C language for the same."
+      },
+      {
+         "rank":37,
+         "question":"37. What is a friend function ?",
+         "answer":"A function which is not a member of the class but still can access all the member of the class is called so. To make it happen we need to declare within the required class following the keyword ‘friend’."
+      },
+      {
+         "rank":38,
+         "question":"38. What is a copy constructor ?",
+         "answer":"A copy constructor is the constructor which take same class object reference as the parameter. It gets automatically invoked as soon as the object is initialized with another object of the same class at the time of its creation."
+      },
+      {
+         "rank":39,
+         "question":"39. Does C++ supports exception handling ?   If so what are the keywords involved in achieving the same ?",
+         "answer":"C++ does supports exception handling. try, catch & throw are keyword used for the same."
+      },
+      {
+         "rank":40,
+         "question":"40. Explain the pointer – this ?",
+         "answer":"This, is the pointer variable of the compiler which always holds the current active object’s address."
+      },
+      {
+         "rank":41,
+         "question":"41. What is the difference between the keywords struct and class in C++ ?",
+         "answer":"By default the members of struct are public and by default the members of the class are private."
+      },
+      {
+         "rank":42,
+         "question":"42. Can we implement all the concepts of OOPS using the keyword struct ?",
+         "answer":"Yes."
+      },
+      {
+         "rank":43,
+         "question":"43. What is the block scope variable in C++ ?",
+         "answer":"A variable whose scope is applicable only within a block is said so. Also a variable in C++ can be declared anywhere within the block."
+      },
+      {
+         "rank":44,
+         "question":"44. What is the role of the file opening mode ios::trunk ?",
+         "answer":"If the file already exists, its content will be truncated before opening the file."
+      },
+      {
+         "rank":45,
+         "question":"45. What is the scope resolution operator ?",
+         "answer":"The scope resolution operator is used to\n"         "+"         "\n"         "+"         " * Resolve the scope of global variables.\n"         "+"         " * To associate function definition to a class if the function is defined outside the class."
+      },
+      {
+         "rank":46,
+         "question":"46. What is a namespace ?",
+         "answer":"A namespace is the logical division of the code which can be used to resolve the name conflict of the identifiers by placing them under different name space."
+      },
+      {
+         "rank":47,
+         "question":"47. What are command line arguments ?",
+         "answer":"The arguments/parameters which are sent to the main() function while executing from the command line/console are called so. All the arguments sent are the strings only."
+      },
+      {
+         "rank":48,
+         "question":"48. What is a class template ?",
+         "answer":"A template class is a generic class. The keyword template can be used to define a class template."
+      },
+      {
+         "rank":49,
+         "question":"49. How can we catch all kind of exceptions in a single catch block ?",
+         "answer":"The catch block with ellipses as follows\n"         "+"         "\n"         "+"         "catch(…) \n"         "+"         "{\n"         "+"         "}"
+      },
+      {
+         "rank":50,
+         "question":"50. What is keyword auto for ?",
+         "answer":"By default every local variable of the function is automatic (auto). In the below function both the variables ‘i’ and ‘j’ are automatic variables.\n"         "+"         "\n"         "+"         "void f() \n"         "+"         "{\n"         "+"         "   int i;\n"         "+"         "  \n"         "+"         "   auto int j;\n"         "+"         "}\n"         "+"         "NOTE − A global variable can’t be an automatic variable"
+      },
+      {
+         "rank":51,
+         "question":"51. What is a static variable ?",
+         "answer":"A static local variables retains its value between the function call and the default value is 0. The following function will print 1 2 3 if called thrice.\n"         "+"         "\n"         "+"         "void f() \n"         "+"         "{ \n"         "+"         "   static int i; \n"         "+"         "   \n"         "+"         "   ++i; \n"         "+"         "   printf(“%d “,i); \n"         "+"         "}\n"         "+"         "If a global variable is static then its visibility is limited to the same source code."
+      },
+      {
+         "rank":52,
+         "question":"52. What is the purpose of extern storage specifier ?",
+         "answer":"Used to resolve the scope of global symbol\n"         "+"         "\n"         "+"         "#include <iostream>\n"         "+"         "\n"         "+"         "using namespace std;\t\n"         "+"         "main() {\n"         "+"         "   extern int i;\n"         "+"         "      \n"         "+"         "   cout<<i<<endl;\n"         "+"         "}\n"         "+"         "int i = 20;"
+      },
+      {
+         "rank":53,
+         "question":"53. What is the meaning of base address of the array ?",
+         "answer":"The starting address of the array is called as the base address of the array."
+      },
+      {
+         "rank":54,
+         "question":"54. When should we use the register storage specifier ?",
+         "answer":"If a variable is used most frequently then it should be declared using register storage specifier, then possibly the compiler gives CPU register for its storage to speed up the look up of the variable."
+      },
+      {
+         "rank":55,
+         "question":"55. Can a program be compiled without main() function ?",
+         "answer":"Yes, it can be but cannot be executed, as the execution requires main() function definition."
+      },
+      {
+         "rank":56,
+         "question":"56. Where an automatic variable is stored ?",
+         "answer":"Every local variable by default being an auto variable is stored in stack memory."
+      },
+      {
+         "rank":57,
+         "question":"57. What is a container class ?",
+         "answer":"A class containing at least one member variable of another class type in it is called so."
+      },
+      {
+         "rank":58,
+         "question":"58. What is a token ?",
+         "answer":"A C++ program consists of various tokens and a token is either a keyword, an identifier, a constant, a string literal, or a symbol."
+      },
+      {
+         "rank":59,
+         "question":"59. What is a preprocessor ?",
+         "answer":"Preprocessor is a directive to the compiler to perform certain things before the actual compilation process begins."
+      },
+      {
+         "rank":60,
+         "question":"60. What are command line arguments ?",
+         "answer":"The arguments which we pass to the main() function while executing the program are called as command line arguments. The parameters are always strings held in the second argument (below in args) of the function which is array of character pointers. First argument represents the count of arguments (below in count) and updated automatically by operating system.\n"         "+"         "\n"         "+"         "main( int count, char *args[]) {\n"         "+"         "}"
+      },
+      {
+         "rank":61,
+         "question":"61. What are the different ways of passing parameters to the functions ? Which to use when ?",
+         "answer":" * Call by value − We send only values to the function as parameters. We choose this if we do not want the actual parameters to be modified with formal parameters but just used.\n"         "+"         "\n"         "+"         " * Call by address − We send address of the actual parameters instead of values. We choose this if we do want the actual parameters to be modified with formal parameters.\n"         "+"         "\n"         "+"         " * Call by reference − The actual parameters are received with the C++ new reference variables as formal parameters. We choose this if we do want the actual parameters to be modified with formal parameters."
+      },
+      {
+         "rank":62,
+         "question":"62. What is reminder for 5.0 % 2 ?",
+         "answer":"Error, It is invalid that either of the operands for the modulus operator (%) is a real number."
+      },
+      {
+         "rank":63,
+         "question":"63. Which compiler switch to be used for compiling the programs using math library with g++ compiler ?",
+         "answer":"Opiton –lm to be used as > g++ –lm <file.cpp>"
+      },
+      {
+         "rank":64,
+         "question":"64. Can we resize the allocated memory which was allocated using ‘new’ operator ?",
+         "answer":"No, there is no such provision available."
+      },
+      {
+         "rank":65,
+         "question":"65. Who designed C++ programming language ?",
+         "answer":"Bjarne Stroustrup."
+      },
+      {
+         "rank":66,
+         "question":"66. Which operator can be used to determine the size of a data type/class or variable/object ?",
+         "answer":"sizeof"
+      },
+      {
+         "rank":67,
+         "question":"67. How can we refer to the global variable if the local and the global variable names are same ?",
+         "answer":"We can apply scope resolution operator (::) to the for the scope of global variable."
+      },
+      {
+         "rank":68,
+         "question":"68. What are valid operations on pointers ?",
+         "answer":"The only two permitted operations on pointers are\n"         "+"         "\n"         "+"         "Comparision ii) Addition/Substraction (excluding void pointers)"
+      },
+      {
+         "rank":69,
+         "question":"69. What is recursion ?",
+         "answer":"Function calling itself is called as recursion."
+      },
+      {
+         "rank":70,
+         "question":"70. What is the first string in the argument vector w.r.t command line arguments ?",
+         "answer":"Program name."
+      },
+      {
+         "rank":71,
+         "question":"71. What is the maximum length of an identifier ?",
+         "answer":"Ideally it is 32 characters and also implementation dependent."
+      },
+      {
+         "rank":72,
+         "question":"72. What is the default function call method ?",
+         "answer":"By default the functions are called by value."
+      },
+      {
+         "rank":73,
+         "question":"73. What are available mode of inheritance to inherit one class from another ?",
+         "answer":"Public, private & protected"
+      },
+      {
+         "rank":74,
+         "question":"74. What is the difference between delete and delete[] ?",
+         "answer":"Delete[] is used to release the array allocated memory which was allocated using new[] and delete is used to release one chunk of memory which was allocated using new."
+      },
+      {
+         "rank":75,
+         "question":"75. Does an abstract class in C++ need to hold all pure virtual functions ?",
+         "answer":"Not necessarily, a class having at least one pure virtual function is abstract class too."
+      },
+      {
+         "rank":76,
+         "question":"76. Is it legal to assign a base class object to a derived class pointer ?",
+         "answer":"No, it will be error as the compiler fails to do conversion."
+      },
+      {
+         "rank":77,
+         "question":"77. What happens if an exception is thrown outside a try block ?",
+         "answer":"The program shall quit abruptly."
+      },
+      {
+         "rank":78,
+         "question":"78. Are the exceptions and error same ?",
+         "answer":"No, exceptions can be handled whereas program cannot resolve errors."
+      },
+      {
+         "rank":79,
+         "question":"79. What is function overriding ?",
+         "answer":"Defining the functions within the base and derived class with the same signature and name where the base class’s function is virtual."
+      },
+      {
+         "rank":80,
+         "question":"80. Which function is used to move the stream pointer for the purpose of reading data from stream ?",
+         "answer":"seekg()"
+      },
+      {
+         "rank":81,
+         "question":"81. Which function is used to move the stream pointer for the purpose of writing data from stream ?",
+         "answer":"seekp()"
+      },
+      {
+         "rank":82,
+         "question":"82. Are class functions taken into consideration as part of the object size ?",
+         "answer":"No, only the class member variables determines the size of the respective class object."
+      },
+      {
+         "rank":83,
+         "question":"83. Can we create and empty class ?   If so what would be the size of such object ?",
+         "answer":"We can create an empty class and the object size will be 1."
+      },
+      {
+         "rank":84,
+         "question":"84. What is ‘std’ ?",
+         "answer":"Default namespace defined by C++."
+      },
+      {
+         "rank":85,
+         "question":"85. What is the full form of STL ?",
+         "answer":"Standard template library"
+      },
+      {
+         "rank":86,
+         "question":"86. What is ‘cout’ ?",
+         "answer":"cout is the object of ostream class. The stream ‘cout’ is by default connected to console output device."
+      },
+      {
+         "rank":87,
+         "question":"87. What is ‘cin’ ?",
+         "answer":"cin is the object of istream class. The stream ‘cin’ is by default connected to console input device."
+      },
+      {
+         "rank":88,
+         "question":"88. What is the use of the keyword ‘using’ ?",
+         "answer":"It is used to specify the namespace being used in."
+      },
+      {
+         "rank":89,
+         "question":"89. If a pointer declared for a class - which operator can be used to access its class members ?",
+         "answer":"Arrow (->) operator can be used for the same"
+      },
+      {
+         "rank":90,
+         "question":"90. What is difference between including the header file with-in angular braces < > and double quotes ?",
+         "answer":"If a header file is included with in < > then the compiler searches for the particular header file only with in the built in include path. If a header file is included with in “ “, then the compiler searches for the particular header file first in the current working directory, if not found then in the built in include path"
+      },
+      {
+         "rank":91,
+         "question":"91. S++ or S = S+1 - which can be recommended to increment the value by 1 and why ?",
+         "answer":"S++, as it is single machine instruction (INC) internally."
+      },
+      {
+         "rank":92,
+         "question":"92. What is the difference between actual and formal parameters ?",
+         "answer":"The parameters sent to the function at calling end are called as actual parameters while at the receiving of the function definition called as formal parameters."
+      },
+      {
+         "rank":93,
+         "question":"93. What is the difference between variable declaration and variable definition ?",
+         "answer":"Declaration associates type to the variable whereas definition gives the value to the variable."
+      },
+      {
+         "rank":94,
+         "question":"94. Which key word is used to perform unconditional branching ?",
+         "answer":"goto."
+      },
+      {
+         "rank":95,
+         "question":"95. Is 068 a valid octal number ?",
+         "answer":"No, it contains invalid octal digits."
+      },
+      {
+         "rank":96,
+         "question":"96. What is the purpose of #undef preprocessor ?",
+         "answer":"It will be used to undefine an existing macro definition."
+      },
+      {
+         "rank":97,
+         "question":"97. Can we nest multi line comments in a C++ code ?",
+         "answer":"No, we cannot."
+      },
+      {
+         "rank":98,
+         "question":"98. What is a virtual destructor ?",
+         "answer":"A virtual destructor ensures that the objects resources are released in the reverse order of the object being constructed w.r.t inherited object."
+      },
+      {
+         "rank":99,
+         "question":"99. What is the order of objects destroyed in the memory ?",
+         "answer":"The objects are destroyed in the reverse order of their creation."
+      },
+      {
+         "rank":100,
+         "question":"100.What is a friend class ?",
+         "answer":"A class members can gain accessibility over other class member by placing the class declaration prefixed with the keyword ‘friend’ in the destination class."
+      }
+   ]
 }
